@@ -1,5 +1,6 @@
 """Put the Hugging Face repo together in build/repo/ (nothing is uploaded):
-README.md, LICENSE, NOTICE, pyproject.toml, articulino_onnx/, tools/, config.json, fp32/ fp16/ int8/*.onnx.
+README.md, LICENSE, NOTICE, pyproject.toml, articulino_onnx/, config.json, fp32/ fp16/ int8/*.onnx
+(the tools stay in the code repository).
 
   python tools/assemble.py
 """
@@ -32,7 +33,6 @@ def main():
         place(ONNX / f, repo / f)
     ignore = shutil.ignore_patterns("__pycache__", "*.pyc")
     shutil.copytree(ONNX / "articulino_onnx", repo / "articulino_onnx", ignore=ignore)
-    shutil.copytree(ONNX / "tools", repo / "tools", ignore=ignore)
     place(BUILD / "config.json", repo / "config.json")
     sums = {}
     for prec in ("fp32", "fp16", "int8"):
