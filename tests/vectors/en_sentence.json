@@ -1,0 +1,219 @@
+{
+ "sentence": "the delivery arrives tomorrow between ten and twelve.",
+ "language": "en",
+ "timesteps": [
+  0.0,
+  0.25,
+  0.5,
+  0.75
+ ],
+ "prompt_frames": 125,
+ "context_frames": 12,
+ "frames_total": 228,
+ "frames_new": 103,
+ "arrays": {
+  "voice_wav": [
+   120960
+  ],
+  "voice_logmel": [
+   100,
+   505
+  ],
+  "voice_mu": [
+   96,
+   126
+  ],
+  "voice_ref": [
+   126,
+   96
+  ],
+  "text_ids_raw": [
+   53
+  ],
+  "text_ids": [
+   54
+  ],
+  "text_mask": [
+   54
+  ],
+  "text_h": [
+   54,
+   512
+  ],
+  "voice_tokens": [
+   32,
+   768
+  ],
+  "voice_vector": [
+   768
+  ],
+  "duration_log": [
+   54
+  ],
+  "durations": [
+   54
+  ],
+  "frame_cond": [
+   228,
+   512
+  ],
+  "cache_k0": [
+   6,
+   125,
+   64
+  ],
+  "cache_v0": [
+   6,
+   125,
+   64
+  ],
+  "cache_k1": [
+   6,
+   125,
+   64
+  ],
+  "cache_v1": [
+   6,
+   125,
+   64
+  ],
+  "cache_k2": [
+   6,
+   125,
+   64
+  ],
+  "cache_v2": [
+   6,
+   125,
+   64
+  ],
+  "cache_k3": [
+   6,
+   125,
+   64
+  ],
+  "cache_v3": [
+   6,
+   125,
+   64
+  ],
+  "cache_k4": [
+   6,
+   125,
+   64
+  ],
+  "cache_v4": [
+   6,
+   125,
+   64
+  ],
+  "cache_k5": [
+   6,
+   125,
+   64
+  ],
+  "cache_v5": [
+   6,
+   125,
+   64
+  ],
+  "cache_k6": [
+   6,
+   125,
+   64
+  ],
+  "cache_v6": [
+   6,
+   125,
+   64
+  ],
+  "cache_k7": [
+   6,
+   125,
+   64
+  ],
+  "cache_v7": [
+   6,
+   125,
+   64
+  ],
+  "noise_0": [
+   103,
+   96
+  ],
+  "step0_in": [
+   103,
+   96
+  ],
+  "step0_velocity": [
+   103,
+   96
+  ],
+  "step0_x1": [
+   103,
+   96
+  ],
+  "noise_1": [
+   103,
+   96
+  ],
+  "step1_in": [
+   103,
+   96
+  ],
+  "step1_velocity": [
+   103,
+   96
+  ],
+  "step1_x1": [
+   103,
+   96
+  ],
+  "noise_2": [
+   103,
+   96
+  ],
+  "step2_in": [
+   103,
+   96
+  ],
+  "step2_velocity": [
+   103,
+   96
+  ],
+  "step2_x1": [
+   103,
+   96
+  ],
+  "noise_3": [
+   103,
+   96
+  ],
+  "step3_in": [
+   103,
+   96
+  ],
+  "step3_velocity": [
+   103,
+   96
+  ],
+  "step3_x1": [
+   103,
+   96
+  ],
+  "latents_norm": [
+   228,
+   96
+  ],
+  "decoder_in": [
+   96,
+   115
+  ],
+  "decoder_out": [
+   110400
+  ],
+  "audio": [
+   98880
+  ]
+ }
+}

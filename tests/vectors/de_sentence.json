@@ -1,0 +1,219 @@
+{
+ "sentence": "guten morgen! der termin ist heute um fünfzehn uhr dreißig.",
+ "language": "de",
+ "timesteps": [
+  0.0,
+  0.25,
+  0.5,
+  0.75
+ ],
+ "prompt_frames": 125,
+ "context_frames": 12,
+ "frames_total": 242,
+ "frames_new": 117,
+ "arrays": {
+  "voice_wav": [
+   120960
+  ],
+  "voice_logmel": [
+   100,
+   505
+  ],
+  "voice_mu": [
+   96,
+   126
+  ],
+  "voice_ref": [
+   126,
+   96
+  ],
+  "text_ids_raw": [
+   59
+  ],
+  "text_ids": [
+   60
+  ],
+  "text_mask": [
+   60
+  ],
+  "text_h": [
+   60,
+   512
+  ],
+  "voice_tokens": [
+   32,
+   768
+  ],
+  "voice_vector": [
+   768
+  ],
+  "duration_log": [
+   60
+  ],
+  "durations": [
+   60
+  ],
+  "frame_cond": [
+   242,
+   512
+  ],
+  "cache_k0": [
+   6,
+   125,
+   64
+  ],
+  "cache_v0": [
+   6,
+   125,
+   64
+  ],
+  "cache_k1": [
+   6,
+   125,
+   64
+  ],
+  "cache_v1": [
+   6,
+   125,
+   64
+  ],
+  "cache_k2": [
+   6,
+   125,
+   64
+  ],
+  "cache_v2": [
+   6,
+   125,
+   64
+  ],
+  "cache_k3": [
+   6,
+   125,
+   64
+  ],
+  "cache_v3": [
+   6,
+   125,
+   64
+  ],
+  "cache_k4": [
+   6,
+   125,
+   64
+  ],
+  "cache_v4": [
+   6,
+   125,
+   64
+  ],
+  "cache_k5": [
+   6,
+   125,
+   64
+  ],
+  "cache_v5": [
+   6,
+   125,
+   64
+  ],
+  "cache_k6": [
+   6,
+   125,
+   64
+  ],
+  "cache_v6": [
+   6,
+   125,
+   64
+  ],
+  "cache_k7": [
+   6,
+   125,
+   64
+  ],
+  "cache_v7": [
+   6,
+   125,
+   64
+  ],
+  "noise_0": [
+   117,
+   96
+  ],
+  "step0_in": [
+   117,
+   96
+  ],
+  "step0_velocity": [
+   117,
+   96
+  ],
+  "step0_x1": [
+   117,
+   96
+  ],
+  "noise_1": [
+   117,
+   96
+  ],
+  "step1_in": [
+   117,
+   96
+  ],
+  "step1_velocity": [
+   117,
+   96
+  ],
+  "step1_x1": [
+   117,
+   96
+  ],
+  "noise_2": [
+   117,
+   96
+  ],
+  "step2_in": [
+   117,
+   96
+  ],
+  "step2_velocity": [
+   117,
+   96
+  ],
+  "step2_x1": [
+   117,
+   96
+  ],
+  "noise_3": [
+   117,
+   96
+  ],
+  "step3_in": [
+   117,
+   96
+  ],
+  "step3_velocity": [
+   117,
+   96
+  ],
+  "step3_x1": [
+   117,
+   96
+  ],
+  "latents_norm": [
+   242,
+   96
+  ],
+  "decoder_in": [
+   96,
+   129
+  ],
+  "decoder_out": [
+   123840
+  ],
+  "audio": [
+   112320
+  ]
+ }
+}

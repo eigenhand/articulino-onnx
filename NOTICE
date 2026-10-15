@@ -1,0 +1,39 @@
+Articulino-DE-EN-Realtime-Stream-TTS
+Copyright 2026 eigenhand
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+---------------------------------------------------------------------------
+Training data
+---------------------------------------------------------------------------
+The model was trained on the following corpora. The first three are licensed
+under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), which
+requires this attribution. Keep this NOTICE when you redistribute the model.
+
+- Emilia-YODAS, German subset. Haorui He et al., Amphion, "Emilia: An
+  Extensive, Multilingual, and Diverse Speech Dataset for Large-Scale Speech
+  Generation" (2024); built on YODAS (Xinjian Li et al., ESPnet / WAVLab).
+  CC BY 4.0. https://huggingface.co/datasets/amphion/Emilia-Dataset
+  Only the YODAS part was used; the rest of Emilia (CC BY-NC 4.0) was not.
+- Hi-Fi TTS 2, selected English chapters. Ryan Langman et al., NVIDIA.
+  CC BY 4.0. https://huggingface.co/datasets/nvidia/hifitts-2
+- CML-TTS, German. Frederico S. Oliveira et al. CC BY 4.0.
+  https://www.openslr.org/146/
+
+Also used, without an attribution requirement:
+- Mozilla Common Voice 27.0, German. CC0 1.0. https://commonvoice.mozilla.org
+- Thorsten-Voice datasets, Thorsten Mueller. CC0 1.0. https://www.thorsten-voice.de
+- HUI-Audio-Corpus-German, iisys (Hof University). Audio from LibriVox
+  (public domain). https://github.com/iisys-hof/HUI-Audio-Corpus-German
+
+No changes were made to the content of these corpora other than resampling to
+24 kHz, cutting, filtering and text normalization for training.
+
+---------------------------------------------------------------------------
+Design credit
+---------------------------------------------------------------------------
+The overall recipe (letter-level text, duration predictor, flow-matching DiT
+on 25 Hz latents, 16-step teacher distilled with DMD2 into a 4-step student,
+separate latent decoder) follows the model card of EMA Lightning by Canberk
+Aslan (Apache License 2.0), https://huggingface.co/canberkkkkkk/ema-lightning.
+No code, weights, data or samples of EMA Lightning are included or were used.

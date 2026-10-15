@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "articulino-onnx"
+version = "1.0.0"
+description = "Articulino-DE-EN-Realtime-Stream-TTS on ONNX Runtime: German and English TTS with zero-shot voice cloning, no PyTorch"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = ["onnxruntime>=1.17", "numpy>=1.24", "soundfile>=0.12", "num2words>=0.5.13"]
+
+[project.optional-dependencies]
+hub = ["huggingface_hub>=0.20"]
+
+[tool.setuptools]
+packages = ["articulino_onnx", "articulino_onnx.frontend"]
+
+[tool.setuptools.package-data]
+"articulino_onnx.frontend" = ["data/*.json"]
